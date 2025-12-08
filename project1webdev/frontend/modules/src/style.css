@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+/* Auth layout */
+
+.auth-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.auth-left {
+  width: 50%;
+  background: #031147;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.auth-left h1 {
+  font-size: 40px;
+}
+
+.auth-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 360px;
+  padding: 35px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 20px;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card input {
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.auth-card button {
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  background: #6280ff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Boards */
+
+.topbar {
+  background: #026AA7;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-secondary,
+.btn-danger {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-secondary {
+  background: #4caf50;
+}
+
+.btn-danger {
+  background: #e74c3c;
+}
+
+.boards-page {
+  padding: 20px;
+}
+
+.board-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.board-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.board-form button {
+  padding: 8px 16px;
+}
+
+.board-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.board-card {
+  width: 200px;
+  height: 110px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Board page */
+
+.boardpage-wrapper {
+  padding: 20px;
+}
+
+.add-list-form {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.add-list-form input {
+  padding: 8px;
+}
+
+.lists-row {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.list-column {
+  width: 230px;
+  background: #ebecf0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.list-column h3 {
+  margin: 0 0 10px;
+}
+
+.card-item {
+  background: white;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.add-card-form input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+/* Payment */
+
+.payment-page {
+  padding: 40px;
+}
+
+.payment-page button {
+  padding: 10px 16px;
+  border: none;
+  background: #26a69a;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
